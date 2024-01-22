@@ -1,0 +1,114 @@
+/*variables*/
+:root{
+    --colorFondo:#ffff;
+    --colorEnlace:#1ed760;
+    --colorFooter:#919496;
+    --borde1:#ffd2d7;
+    --borde2:#c4b1d4;
+    --borde3:#a5bbd1;
+    --borde4:#ffc862;
+    
+}
+
+/*estilo hero*/
+.hero{
+    background-image: url(img/cover.jpg);
+    background-size: cover;
+    background-position: center;
+    filter: sepia(50%);
+}
+
+
+/*estilo logo*/
+.logo{
+    width: 8rem;
+    height: 3rem;
+}
+
+/*estilos bordes con diferentes colores*/
+.estilo_borde{
+    border: 5px solid var(--borde1);
+}
+
+.borde{
+    background-color: var(--borde1);
+    border-radius: 12px;
+}
+.borde:hover{
+    background-color: var(--borde1);
+    border-radius: 12px;
+    transform: scale(1.05);
+}
+
+.estilo_borde2{
+    border: 5px solid var(--borde2);
+}
+
+.borde-2{
+    background-color: var(--borde2);
+    border-radius: 12px;
+    
+}
+.borde-2:hover{
+    background-color: var(--borde2);
+    border-radius: 12px;
+    transform: scale(1.05);
+}
+
+.estilo_borde3{
+    border: 5px solid var(--borde3);
+}
+.borde-3{
+    background-color: var(--borde3);
+    border-radius: 12px;
+    
+}
+.borde-3:hover{
+    background-color: var(--borde3);
+    border-radius: 12px;
+    transform: scale(1.05);
+}
+
+.estilo_borde4{
+    border: 5px solid var(--borde4);
+}
+
+.borde-4{
+    background-color: var(--borde4);
+    border-radius: 12px;
+}
+.borde-4:hover{
+    background-color: var(--borde4);
+    border-radius: 12px;
+    transform: scale(1.05);
+}
+
+/*estilos footer*/
+.footer{
+    color: var(--colorFooter);
+}
+
+/*estilo enlace*/
+.enlaces{
+    color: var(--colorFondo);
+    text-decoration: none;
+    transform: scale(1.05);
+}
+.enlaces:hover{
+    color: var(--colorEnlace);
+    transform: scale(1.05);
+}
+
+/*estilo accordion*/
+.accordion{
+    background-color: var(--colorEnlace);
+}
+
+/*estilos propios*/
+.card__flex--body{
+    flex-grow: 1;
+}
+
+.card__flex--footer{
+    flex-grow: 0;
+}
